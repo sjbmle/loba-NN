@@ -129,10 +129,6 @@ Unlike classical maximum likelihood models, the existence of multiple clusters (
 
 <br>
 
-##### `Immunity to the "Curse of Dimensionality":`
-Most clustering algorithms and auto-regressive models, *ie*: algorithms that optimize a euclidean measure in probability space, must face the realization that a 100-dimensional box has quite a lot of walls. This is to say, a box in 100 dimensions must have a combinatoric explosion worth of data points. Unlike euclidean measures, probabilistic measures of space are more abstract, there is no geometric kernel to them. Indeed, invertible-flow neural networks and their stochastic-mapping cousins, the VAE models<sup>[*Kingma.*](https://arxiv.org/pdf/1312.6114.pdf)</sup>, were intentionally built for hyper-dimensional data, *ie*: high resolution photos like celebrity-faces. 
-
-
 
 
 <br>
